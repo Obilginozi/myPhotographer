@@ -1,0 +1,14 @@
+{
+  "error": {
+    "title": "Hata Sayfası!",
+    "http": {
+      "400": "Geçersiz istek.",
+      "403": "Bu sayfaya erişmeye yetkiniz yok.",
+      "404": "Sayfa mevcut değil.",
+      "405": "The HTTP verb you used is not supported for this URL.",
+      "500": "Sunucu iç hatası."
+    },
+    "concurrencyFailure": "Aynı anda başka bir kullanıcı düzenleme yaptı. Değişiklikleriniz reddedildi.",
+    "validation": "Sunucuda doğrulama hatası."
+  }
+}

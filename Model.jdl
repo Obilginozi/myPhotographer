@@ -1,0 +1,40 @@
+entity Company {
+	id UUID
+  	companyName String
+    companyPhone String
+    companyMail String
+    companyAddress String
+}
+
+entity Client {
+	id UUID
+	clientName String
+    clientSurname String
+    clientMail String
+    clientPhone String
+    clientAddress String
+}
+entity Album {
+	id UUID
+    token String
+    createDate LocalDate
+}
+
+entity File {
+	id UUID
+    name String
+    photo ImageBlob
+}
+
+relationship OneToOne{
+    Company{user} to User
+}
+
+relationship OneToMany{
+	Company{client} to Client
+	Client{album} to Album
+    Album{file} to File{album}
+
+}
+
+

@@ -1,0 +1,31 @@
+{
+  "userManagement": {
+    "home": {
+      "title": "Kullanıcılar",
+      "refreshListLabel": "Listeyi yenile",
+      "createLabel": "Yeni kullanıcı oluştur",
+      "createOrEditLabel": "Kullanıcı oluştur veya düzenle"
+    },
+    "created": "{{ param }} id'li kullanıcı oluşturuldu",
+    "updated": "{{ param }} id'li kullanıcı güncellendi",
+    "deleted": "{{ param }} id'li kullanıcı silindi",
+    "delete": {
+      "question": "{{ login }} kullanıcısını silmek istediğinize emin misiniz?"
+    },
+    "detail": {
+      "title": "Kullanıcı"
+    },
+    "login": "Giriş",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "email": "Eposta",
+    "activated": "Aktif",
+    "deactivated": "Deaktif",
+    "profiles": "Profiller",
+    "langKey": "Dil",
+    "createdBy": "Oluşturan",
+    "createdDate": "Oluşturma tarihi",
+    "lastModifiedBy": "Düzenleyen",
+    "lastModifiedDate": "Düzenleme tarihi"
+  }
+}

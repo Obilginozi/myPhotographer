@@ -1,0 +1,10 @@
+${AnsiColor.GREEN} ________  ________   _________   ________   ________   ________   ________   ________ ${AnsiColor.CYAN} ________   ___   _____ ______
+${AnsiColor.GREEN}|\  _____\|\   __  \ |\___   ___\|\   __  \ |\   ____\ |\   __  \ |\   __  \ |\  _____\${AnsiColor.CYAN}|\   ____\ |\  \ |\   _ \  _   \
+${AnsiColor.GREEN}\ \  \__/ \ \  \|\  \\|___ \  \_|\ \  \|\  \\ \  \___| \ \  \|\  \\ \  \|\  \\ \  \__/ ${AnsiColor.CYAN}\ \  \___| \ \  \\ \  \\\__\ \  \
+${AnsiColor.GREEN} \ \   __\ \ \  \\\  \    \ \  \  \ \  \\\  \\ \  \  ___\ \   _  _\\ \   __  \\ \   __\ ${AnsiColor.CYAN}\ \  \     \ \  \\ \  \\|__| \  \
+${AnsiColor.GREEN}  \ \  \_|  \ \  \\\  \    \ \  \  \ \  \\\  \\ \  \|\  \\ \  \\  \|\ \  \ \  \\ \  \_|  ${AnsiColor.CYAN}\ \  \____ \ \  \\ \  \    \ \  \
+${AnsiColor.GREEN}   \ \__\    \ \_______\    \ \__\  \ \_______\\ \_______\\ \__\\ _\ \ \__\ \__\\ \__\    ${AnsiColor.CYAN}\ \_______\\ \__\\ \__\    \ \__\
+${AnsiColor.GREEN}    \|__|     \|_______|     \|__|   \|_______| \|_______| \|__|\|__| \|__|\|__| \|__|     ${AnsiColor.CYAN}\|_______| \|__| \|__|     \|__|
+
+${AnsiColor.BRIGHT_BLUE}:: Running Spring Boot ${spring-boot.version} ::
+:: https://www.fotografcim.com ::${AnsiColor.DEFAULT}

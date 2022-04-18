@@ -1,0 +1,53 @@
+{
+  "name": "Client",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "clientName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientSurname",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientMail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientPhone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clientAddress",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "album",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "album"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "company",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "company"
+    }
+  ],
+  "entityTableName": "client",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211111185609"
+}

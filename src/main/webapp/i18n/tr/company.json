@@ -1,0 +1,29 @@
+{
+  "fotografcimApp": {
+    "company": {
+      "home": {
+        "title": "Şirketler",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni şirket oluştur",
+        "createOrEditLabel": "Şirket oluştur ya da düzenle",
+        "notFound": "Şirket bulunamadı"
+      },
+      "created": "{{ param }} id'li şirket oluşturuldu",
+      "updated": "{{ param }} id'li şirket güncellendi",
+      "deleted": "{{ param }} id'li şirket silindi",
+      "delete": {
+        "question": "{{ id }} id'li şirketi silmek istediğinize emin misiniz?"
+      },
+      "detail": {
+        "title": "Şirket"
+      },
+      "id": "Id",
+      "companyName": "Şirket Adı",
+      "companyPhone": "Şirket Telefonu",
+      "companyMail": "Şirket Email Adresi",
+      "companyAddress": "Şirket Adresi",
+      "user": "Kullanıcı",
+      "client": "Müşteri"
+    }
+  }
+}

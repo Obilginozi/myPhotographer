@@ -1,0 +1,28 @@
+{
+  "fotografcimApp": {
+    "album": {
+      "home": {
+        "title": "Albümler",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni albüm oluştur",
+        "createOrEditLabel": "Albüm oluştur ya da düzenle",
+        "notFound": "Albüm bulunamadı"
+      },
+      "created": "{{ param }} id'li albüm oluşturuldu",
+      "updated": "{{ param }} id'li albüm güncellendi",
+      "deleted": "{{ param }} id'li albüm silindi",
+      "delete": {
+        "question": "{{ id }} id'li albümü silmek istediğinize emin misiniz?"
+      },
+      "detail": {
+        "title": "Albüm"
+      },
+      "id": "Id",
+      "token": "Token",
+      "createDate": "Oluşturma Tarihi",
+      "file": "Dosya",
+      "client": "Müşteri",
+      "fileDialog": "Dosyaları yüklemek için sürükleyin ya da tıklayın"
+    }
+  }
+}

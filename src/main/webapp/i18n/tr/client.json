@@ -1,0 +1,30 @@
+{
+  "fotografcimApp": {
+    "client": {
+      "home": {
+        "title": "Müşteriler",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni müşteri oluştur",
+        "createOrEditLabel": "Müşteri oluştur ya da düzenle",
+        "notFound": "Müşteri bulunamadı"
+      },
+      "created": "{{ param }} id'li müşteri oluşturuldu",
+      "updated": "{{ param }} id'li müşteri güncellendi",
+      "deleted": "{{ param }} id'li müşteri silindi",
+      "delete": {
+        "question": "{{ id }} id'li müşteriyi silmek istediğinize emin misiniz?"
+      },
+      "detail": {
+        "title": "Müşteri"
+      },
+      "id": "Id",
+      "clientName": "Ad",
+      "clientSurname": "Soyad",
+      "clientMail": "EMail",
+      "clientPhone": "Telefon",
+      "clientAddress": "Adres",
+      "album": "Albüm",
+      "company": "Şirket"
+    }
+  }
+}
